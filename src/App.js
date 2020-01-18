@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// Components
+import Navbar from './Components/Navbar';
+import About from './Components/Sections/About/About';
+import Experiences from './Components/Sections/Experiences/Experiences'
+import Education from './Components/Sections/Education/Education'
+import Skills from './Components/Sections/Skills/Skills'
+import Interests from './Components/Sections/Interests/Interests'
+import Awards from './Components/Sections/Awards/Awards'
+
+// Styles
+import Resume from './Assets/Styles/Resume.css';
+
+const App = () => (
+  <div>
+    <Navbar/>
+
+    <div className="container-fluid p-0">
+      <About/>
+      <hr className="m-0"/>
+      <Experiences/>
+      <hr className="m-0"/>
+      <Education/>
+      <hr className="m-0"/>
+      <Skills/>
+      <hr className="m-0"/>
+      <Interests/>
+      <hr className="m-0"/>
+      <Awards/>
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
