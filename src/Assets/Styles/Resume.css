@@ -80,10 +80,11 @@ p.lead {
 	color: #bd5d38;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
+#sideNav .navbar-nav .nav-item a {
 	font-weight: 800;
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -125,7 +126,7 @@ p.lead {
 	#sideNav .navbar-collapse .navbar-nav .nav-item {
 		display: block;
 	}
-	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+	#sideNav .navbar-collapse .navbar-nav .nav-item a {
 		display: block;
 	}
 }
