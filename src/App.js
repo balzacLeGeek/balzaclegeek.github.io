@@ -9,9 +9,6 @@ import Skills from './Components/Sections/Skills/Skills'
 import Interests from './Components/Sections/Interests/Interests'
 import Awards from './Components/Sections/Awards/Awards'
 
-// Styles
-import Resume from './Assets/Styles/Resume.css';
-
 const App = () => (
   <div>
     <Navbar/>
