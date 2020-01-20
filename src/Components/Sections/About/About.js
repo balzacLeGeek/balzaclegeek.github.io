@@ -59,7 +59,7 @@ const About = () => {
                     {
                         socials.map((social, key) => {
                             return (
-                                <a href={ social.url } id={ `about-social-${key}` }>
+                                <a href={ social.url } key={ key }>
                                     <i className={ social.icon }></i>
                                 </a>
                             );
