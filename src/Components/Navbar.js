@@ -21,13 +21,13 @@ const Navbar = () => {
                 title: "Compétences",
             },
             {
-                to: "interests",
-                title: "Interests",
-            },
-            {
                 to: "awards",
                 title: "Awards",
             },
+            {
+                to: "interests",
+                title: "Autres",
+            }
         ]
     )
 

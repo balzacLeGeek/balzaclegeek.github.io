@@ -224,7 +224,8 @@
         }
     },
     "interests": {
-
+        "title": "Autres",
+        "content": "<p className=\"mb-0\">Quand je ne suis pas avec RAILLY (mon laptop) à bouffer de code et surfer sur internet, passer du temps avec les personnes qui me sont chères sont un de mes priorités car nous ne savons pas ce que la vie nous reserve après chaque seconde. </p><p> Sinon, il m'arrive aussi de jouer de la guitare et au football.</p>"
     },
     "awards": {
         "title": "Awards",

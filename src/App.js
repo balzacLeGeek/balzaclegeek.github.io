@@ -53,9 +53,9 @@ const App = () => {
         <hr className="m-0"/>
         <Skills skillsDatas={ skills }/>
         <hr className="m-0"/>
-        <Interests interestsDatas={ interests }/>
-        <hr className="m-0"/>
         <Awards awardsDatas={ awards }/>
+        <hr className="m-0"/>
+        <Interests interestsDatas={ interests }/>
       </div>
     </div>
   );
