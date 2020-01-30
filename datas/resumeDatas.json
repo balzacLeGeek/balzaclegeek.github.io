@@ -18,22 +18,22 @@
         "socials": [
             {
                 "name": "linkedin",
-                "icon": "fab fa-linkedin-in",
+                "icon": "linkedin",
                 "url": "https://linkedin.com/in/balzaclegeek"
             },
             {
                 "name": "github",
-                "icon": "fab fa-github",
+                "icon": "github",
                 "url": "https://github.com/balzacLeGeek"
             },
             {
                 "name": "facebook",
-                "icon": "fab fa-facebook",
+                "icon": "facebook",
                 "url": "https://facebook.com/balzacLeGeek"
             },
             {
                 "name": "twitter",
-                "icon": "fab fa-twitter",
+                "icon": "twitter",
                 "url": "https://twitter.com/balzacLeGeek"
             }
         ]
