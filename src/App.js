@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import useAxios from 'axios-hooks';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTrophy } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 // Components
 import Navbar from './Components/Navbar';
@@ -11,6 +14,9 @@ import Interests from './Components/Sections/Interests/Interests'
 import Awards from './Components/Sections/Awards/Awards'
 
 const App = () => {
+
+  library.add(faTrophy, faTwitter, faFacebook, faLinkedin, faGithub);
+
   const defaultResumeDatas = {
     about: null,
     experiences: null,

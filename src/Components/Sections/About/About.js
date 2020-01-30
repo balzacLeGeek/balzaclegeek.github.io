@@ -1,5 +1,6 @@
 import React from 'react';
 import { List } from 'react-content-loader'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const About = ({ aboutDatas }) => {
 
@@ -26,7 +27,8 @@ const About = ({ aboutDatas }) => {
                             socials.map((social, key) => {
                                 return (
                                     <a href={ social.url } key={ key }>
-                                        <i className={ social.icon }></i>
+                                        {/* <FontAwesomeIcon icon={ social.icon } /> */}
+                                        <FontAwesomeIcon icon={['fab', social.icon]} />
                                     </a>
                                 );
                             })

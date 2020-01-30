@@ -1,5 +1,6 @@
 import React from 'react'
 import { List } from 'react-content-loader'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Awards = ({ awardsDatas }) => {
     if (awardsDatas === null) {
@@ -24,7 +25,7 @@ const Awards = ({ awardsDatas }) => {
 
                             return(
                                 <li key={ key }>
-                                    <i className="fa-li fa fa-trophy text-warning"></i>
+                                    <FontAwesomeIcon icon={['fas', 'trophy']} className="text-warning"/>
                                     { award.place }<sup>{ placePrefix }</sup>
                                     <p dangerouslySetInnerHTML={ htmlContent }></p>
                                     <p>
