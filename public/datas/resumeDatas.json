@@ -1,0 +1,297 @@
+{
+    "about": {
+        "title": "A propos",
+        "me" : {
+            "lastname": "RAZAFIMANDIMBY",
+            "firstname": "Niaina Michaël",
+            "about": "<div class=\"subheading mb-5\">Developpeur Web & Mobile <br>(Symfony, React, NodeJS, Ionic Cordova, ...) </div><p class=\"lead mb-5\">Développeur, Startupeur dans le domaine du digital et hâte de voir jusqu’où mes idées et lignes de codes peuvent changer le monde.<br><br></p>"
+        },
+        "address": {
+            "name": "Anjanahary",
+            "city": "Antananarivo",
+            "country": "Madagascar"
+        },
+        "contact": {
+            "mail": "michaniainar@gmail.com",
+            "phone": "+261 34 20 772 92"
+        },
+        "socials": [
+            {
+                "name": "linkedin",
+                "icon": "fab fa-linkedin-in",
+                "url": "https://linkedin.com/in/balzaclegeek"
+            },
+            {
+                "name": "github",
+                "icon": "fab fa-github",
+                "url": "https://github.com/balzacLeGeek"
+            },
+            {
+                "name": "facebook",
+                "icon": "fab fa-facebook",
+                "url": "https://facebook.com/balzacLeGeek"
+            },
+            {
+                "name": "twitter",
+                "icon": "fab fa-twitter",
+                "url": "https://twitter.com/balzacLeGeek"
+            }
+        ]
+    },
+    "experiences": {
+        "title": "Experiences",
+        "lists": [
+            {
+                "title": "Développeur Symfony - CDI",
+                "society": {
+                    "name": "MyAgency Anjanahary",
+                    "address": {
+                        "name": "Anjanahary",
+                        "city": "Antananarivo",
+                        "country": "Madagascar"
+                    },
+                    "website": "https://www.myagency.mg"
+                },
+                "date": {
+                    "start": "1 Mars 2019",
+                    "end": null
+                },
+                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "React", "MongoDB", "MongoDB", "MySQL"]
+            },
+            {
+                "title": "Développeur Full Stack - CDD (2 mois)",
+                "society": {
+                    "name": "SAFE Ambatoroka",
+                    "address": {
+                        "name": "Ambatoroka",
+                        "city": "Antananarivo",
+                        "country": "Madagascar"
+                    },
+                    "website": null
+                },
+                "date": {
+                    "start": "Décembre 2018",
+                    "end": "Février 2019"
+                },
+                "technos": ["Symfony 4", "PHP 7.2", "Angular 5", "NodeJs", "MongoDB", "MySQL"]
+            },
+            {
+                "title": "Développeur Symfony - Remote",
+                "society": {
+                    "name": "Meiste Capital",
+                    "address": {
+                        "name": null,
+                        "city": null,
+                        "country": "France"
+                    },
+                    "website": "http://meistecapital.com"
+                },
+                "date": {
+                    "start": "Octobre 2018",
+                    "end": "Décembre 2018"
+                },
+                "technos": ["Symfony 4", "JQuery", "MySQL"]
+            },
+            {
+                "title": "Développeur Web / Webmaster",
+                "society": {
+                    "name": "E-media Madagascar",
+                    "address": {
+                        "name": "Tsiadana Ampasanimalo",
+                        "city": "Antananarivo",
+                        "country": "Madagascar"
+                    },
+                    "website": "https://emediamadagascar.com"
+                },
+                "date": {
+                    "start": "Novembre 2017",
+                    "end": "Mai 2018"
+                },
+                "technos": ["PHP 7", "Bundles Symfony", "JQuery", "MySQL"]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education - Formations",
+        "lists": [
+            {
+                "etablishment": "ENI Fianaratsoa",
+                "diploma": "Licence en Informatique",
+                "description": "Option: Génie Logiciel et Administration Système / Réseaux",
+                "date": {
+                    "start": "Mars 2016",
+                    "end": "Avril 2019"
+                }
+            },
+            {
+                "etablishment": "OIF - FFIN - HABAKA Innovation Hub",
+                "diploma": "Certificat - Formation et accompagnement en création d'entreprise",
+                "description": "Accompagnement des Lauréats du concours organisé par l'Organisation internationale de la Francophonie (OIF), le Fonds francophone pour l'innovation numérique (FFIN) et l'Habaka Innovation Hub, Hackathon #RiSK[S] 2016.",
+                "date": {
+                    "start": "Juillet 2017",
+                    "end": "Juillet 2018"
+                }
+            },
+            {
+                "etablishment": "NEST'IN Madagascar",
+                "diploma": "Certificat - Pré-accélération d'entrepreneurs",
+                "description": "Formation organisé par Creative Wallonia – ENGINE WALLONIA et HABAKA Innovation Hub.",
+                "date": {
+                    "start": "19",
+                    "end": "27 Novembre 2016"
+                }
+            },
+            {
+                "etablishment": "E-media Madagascar",
+                "diploma": "Certificat de Fin d'étude",
+                "description": "Formation Professionnelle en développement Web.",
+                "date": {
+                    "start": "Octobre 2015",
+                    "end": "Avril 2016"
+                }
+            },
+            {
+                "etablishment": "For 12 School Tanjombato",
+                "diploma": "BACC Série C",
+                "date": {
+                    "start": "2014",
+                    "end": "2015"
+                }
+            }
+        ]
+    },
+    "skills": {
+        "title": "Compétences",
+        "technos": {
+            "title": "Langages / Framework & Technologies",
+            "lists": [
+                {
+                    "logoPath": null,
+                    "name": "Symfony",
+                    "tagName": "symfony"
+                },
+                {
+                    "logoPath": null,
+                    "name": "PHP",
+                    "tagName": "php"
+                },
+                {
+                    "logoPath": null,
+                    "name": "React",
+                    "tagName": "react"
+                },
+                {
+                    "logoPath": null,
+                    "name": "NodeJs",
+                    "tagName": "nodejs"
+                },
+                {
+                    "logoPath": null,
+                    "name": "Golang",
+                    "tagName": "go"
+                },
+                {
+                    "logoPath": null,
+                    "name": "API REST",
+                    "tagName": "api-rest"
+                },
+                {
+                    "logoPath": null,
+                    "name": "GraphQL",
+                    "tagName": "graphql"
+                },
+                {
+                    "logoPath": null,
+                    "name": "Apolo",
+                    "tagName": "apolo"
+                },
+                {
+                    "logoPath": null,
+                    "name": "Ionic",
+                    "tagName": "ionic"
+                },
+                {
+                    "logoPath": null,
+                    "name": "MySQL",
+                    "tagName": "mysql"
+                },
+                {
+                    "logoPath": null,
+                    "name": "MongoDB",
+                    "tagName": "mongodb"
+                }
+            ]
+        }
+    },
+    "interests": {
+
+    },
+    "awards": {
+        "title": "Awards",
+        "lists": [
+            {
+                "place": 2,
+                "team": {
+                    "name": "Geek inside",
+                    "website": null
+                },
+                "content": "Hackathon qui a pour but de proposer des solutions innovant afin d’améliorer la ville d’Antananarivo. Organisé par GDG Antananarivo, Bocasay, Axian Group, ESTI, Telma, Techzara et GasyTia Linux",
+                "date": "24 et 25 Novembre 2018"
+            },
+            {
+                "place": 1,
+                "team": {
+                    "name": "IG Touch",
+                    "website": null
+                },
+                "content": "HACKATHON – Objectifs de Développement Durable au Quotidien <br>Hackathon qui consiste à relever le défi sur les 17 ODD de l’ONU. Organisé par Maltem Group Consulting, Passion 4 Humanity et l’IFM.",
+                "date": "20 et 23 Novembre 2018"
+            },
+            {
+                "place": 2,
+                "team": {
+                    "name": "IG Touch",
+                    "website": null
+                },
+                "content": "FORUM SUR LES METIERS DU NUMERIQUE – UNIVERSITE DE FIANARANTSOA <br> Concours de développement d’application Mobile favorisant l’E-Gouvernance de l’Université de Fianarantsoa. Organisé par <a href=\"http://www.univ-fianar.mg\" target=\"_blank\">L'Université de Fianarantsoa</a> en collaboration avec la Direction de l'Entrepreneuriat et de la Promotion Economique du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique, en partenariat avec <a href=\"https://www.orange.mg\" target=\"_blank\">Orange Madagascar</a>, <a href=\"https://www.etechconsulting-mg.com\" target=\"_blank\">E-tech Consulting</a>.",
+                "date": "2 et 3 Novembre 2018"
+            },
+            {
+                "place": 3,
+                "team": {
+                    "name": "Geek Inside",
+                    "website": null
+                },
+                "content": "NEWTECH EVENT – PALAIS DES SPORT MAHAMASINA <br> Concours de développement d’un site web dynamique pendant 48h.",
+                "date": "1 au 3 Juin 2017"
+            },
+            {
+                "place": 3,
+                "team": {
+                    "name": "Geek Inside",
+                    "website": null
+                },
+                "content": "MADAGASY’COURS - Concours DevApp 2017<br> Concours de développement d’application mobile organisé par le Ministère des Postes, des Télécommunications et du Développement Numérique (MPTDN).",
+                "date": "Mars 2017"
+            },
+            {
+                "place": 2,
+                "team": {
+                    "name": "Geek Inside",
+                    "website": null
+                },
+                "content": "HACKATHON #RISK[SOLUTIONS]<br> Concours organisé par l’Organisation Internationale de la Francophonie et l'HABAKA Innovation Hub (Les solutions des jeunes – Cyber Sécurité. ",
+                "date": "27 Août au 3 Octobre 2016"
+            },
+            {
+                "place": 3,
+                "team": {
+                    "name": "Geek Inside",
+                    "website": null
+                },
+                "content": "HACKATHON DU FOFAJA - ANTSIRABE. <br>Concours organisé par Habaka Innovation Hub et Women in Tech Madagascar (WITM) pour la création d'un site web de Crowdfunding pendant 48h.",
+                "date": "14 au 16 Octobre 2016"
+            }
+        ]
+    }
+}

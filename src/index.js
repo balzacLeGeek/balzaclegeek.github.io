@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 // Styles
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Resume from './Assets/Styles/Resume.css';
+import Resume from './Assets/Styles/Resume1.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

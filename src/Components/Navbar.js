@@ -6,27 +6,27 @@ const Navbar = () => {
         [
             {
                 to: "about",
-                text: "About",
+                title: "A propos",
             },
             {
                 to: "experience",
-                text: "Experience",
+                title: "Experiences",
             },
             {
                 to: "education",
-                text: "Education",
+                title: "Education",
             },
             {
                 to: "skills",
-                text: "Skills",
+                title: "Compétences",
             },
             {
                 to: "interests",
-                text: "Interests",
+                title: "Interests",
             },
             {
                 to: "awards",
-                text: "Awards",
+                title: "Awards",
             },
         ]
     )
@@ -49,12 +49,13 @@ const Navbar = () => {
                             return (
                                 <li className="nav-item" key={ key }>
                                     <Link 
-                                        activeClass="active"
+                                        className="nav-link"
+                                        activeclassname="active"
                                         to={ navbarLink.to }
                                         spy={ true }
                                         smooth={ true }
                                         // offset={ -70 }
-                                        duration= { 500 }>{ navbarLink.text }</Link>
+                                        duration= { 500 }>{ navbarLink.title }</Link>
                                 </li>
                             );
                         })

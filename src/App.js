@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import useAxios from 'axios-hooks';
 
 // Components
 import Navbar from './Components/Navbar';
@@ -9,24 +10,49 @@ import Skills from './Components/Sections/Skills/Skills'
 import Interests from './Components/Sections/Interests/Interests'
 import Awards from './Components/Sections/Awards/Awards'
 
-const App = () => (
-  <div>
-    <Navbar/>
+const App = () => {
+  const defaultResumeDatas = {
+    about: null,
+    experiences: null,
+    education: null,
+    skills: null,
+    interests: null,
+    awards: null,
+  }
 
-    <div className="container-fluid p-0">
-      <About/>
-      <hr className="m-0"/>
-      <Experiences/>
-      <hr className="m-0"/>
-      <Education/>
-      <hr className="m-0"/>
-      <Skills/>
-      <hr className="m-0"/>
-      <Interests/>
-      <hr className="m-0"/>
-      <Awards/>
+  const [resumeDatas, setResumeDatas] = useState(defaultResumeDatas);
+
+  const [{ data, loading, error }, refetch] = useAxios(
+      './datas/resumeDatas.json'
+  );
+
+  useEffect(() => {
+    if (data !== undefined) {
+      setResumeDatas(data);
+    }
+  })
+
+  const { about, experiences, education, skills, interests, awards } = resumeDatas;
+
+  return (
+    <div>
+      <Navbar/>
+
+      <div className="container-fluid p-0">
+        <About aboutDatas={ about }/>
+        <hr className="m-0"/>
+        <Experiences experiencesDatas={ experiences }/>
+        <hr className="m-0"/>
+        <Education educationDatas={ education }/>
+        <hr className="m-0"/>
+        <Skills skillsDatas={ skills }/>
+        <hr className="m-0"/>
+        <Interests interestsDatas={ interests }/>
+        <hr className="m-0"/>
+        <Awards awardsDatas={ awards }/>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default App;

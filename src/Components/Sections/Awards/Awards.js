@@ -1,44 +1,45 @@
 import React from 'react'
+import { List } from 'react-content-loader'
 
-const Awards = () => {
+const Awards = ({ awardsDatas }) => {
+    if (awardsDatas === null) {
+        return (
+            <List/>
+        );
+    }
+
+    const { title, lists } = awardsDatas;
+
     return (
-        <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+        <section className="resume-section p-3 p-lg-5 d-flex" id="awards">
             <div className="w-100">
-            <h2 className="mb-5">Awards &amp; Certifications</h2>
-            <ul className="fa-ul mb-0">
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    Google Analytics Certified Developer
-                </li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    Mobile Web Specialist - Google Certification
-                </li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    1<sup>st</sup>
-                    Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    1<sup>st</sup>
-                    Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                </li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    2<sup>nd</sup>
-                    Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                </li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    1<sup>st</sup>
-                    Place - James Buchanan High School - Hackathon 2006
-                </li>
-                <li>
-                    <i className="fa-li fa fa-trophy text-warning"></i>
-                    3<sup>rd</sup>
-                    Place - James Buchanan High School - Hackathon 2005
-                </li>
-            </ul>
+                <h2 className="mb-5">{ title }</h2>
+                <ul className="fa-ul mb-0">
+                    {
+                        lists.map((award, key) => {
+                            const placePrefix = award.place === 1 ? 'er' : 'ème';
+                            const htmlContent = {
+                                __html: award.content
+                            }
+
+                            return(
+                                <li key={ key }>
+                                    <i className="fa-li fa fa-trophy text-warning"></i>
+                                    { award.place }<sup>{ placePrefix }</sup>
+                                    <p dangerouslySetInnerHTML={ htmlContent }></p>
+                                    <p>
+                                        <span className="team-name">
+                                            <a href={ award.team.website }>
+                                                { award.team.name }
+                                            </a>
+                                        </span> - 
+                                        <span className="date">{ award.date }</span>
+                                    </p>
+                                </li>  
+                            )
+                        })
+                    }
+                </ul>
             </div>
         </section>   
     );
