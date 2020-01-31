@@ -166,59 +166,74 @@
             "title": "Langages / Framework & Technologies",
             "lists": [
                 {
-                    "logoPath": null,
+                    "logoPath": "symfony-min.png",
                     "name": "Symfony",
                     "tagName": "symfony"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "php-min.png",
                     "name": "PHP",
                     "tagName": "php"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "react-min.png",
                     "name": "React",
                     "tagName": "react"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "nodejs-min.png",
                     "name": "NodeJs",
                     "tagName": "nodejs"
                 },
                 {
-                    "logoPath": null,
-                    "name": "Golang",
-                    "tagName": "go"
-                },
-                {
-                    "logoPath": null,
+                    "logoPath": "apirest-min.png",
                     "name": "API REST",
                     "tagName": "api-rest"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "graphql-min.png",
                     "name": "GraphQL",
                     "tagName": "graphql"
                 },
                 {
-                    "logoPath": null,
-                    "name": "Apolo",
-                    "tagName": "apolo"
-                },
-                {
-                    "logoPath": null,
+                    "logoPath": "ionic-min.png",
                     "name": "Ionic",
                     "tagName": "ionic"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "mysql-min.png",
                     "name": "MySQL",
                     "tagName": "mysql"
                 },
                 {
-                    "logoPath": null,
+                    "logoPath": "mongodb-min.png",
                     "name": "MongoDB",
                     "tagName": "mongodb"
+                },
+                {
+                    "logoPath": "npm-min.png",
+                    "name": "Npm",
+                    "tagName": "npm"
+                },
+                {
+                    "logoPath": "yarn-min.png",
+                    "name": "Yarn",
+                    "tagName": "yarn"
+                },
+                {
+                    "logoPath": "less-min.png",
+                    "name": "Less",
+                    "tagName": "less"
+                }
+            ]
+        },
+        "inLearn": {
+            "title": "En cours d'apprentissage",
+            "lists": [
+                {
+                    "logoPath": "golang-min.png",
+                    "name": "Golang",
+                    "tagName": "go"
                 }
             ]
         }
