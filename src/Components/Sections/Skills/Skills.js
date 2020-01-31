@@ -9,7 +9,7 @@ const Skills = ({ skillsDatas }) => {
         );
     }
 
-    const { title, technos } = skillsDatas;
+    const { title, technos, inLearn } = skillsDatas;
 
     return(
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
@@ -23,7 +23,21 @@ const Skills = ({ skillsDatas }) => {
                             return (
                                 <li key={key} className="list-inline-item">
                                     <a>
-                                        <img src={ techno.logoPath }/>
+                                        <img src={`/datas/icons/${techno.logoPath} `}/>
+                                    </a>
+                                </li>
+                            );
+                        })
+                    }
+                </ul>
+                <div className="subheading mb-3">{ inLearn.title }</div>
+                <ul className="list-inline dev-icons">
+                    {
+                        inLearn.lists.map((techno, key) => {
+                            return (
+                                <li key={key} className="list-inline-item">
+                                    <a>
+                                        <img src={`/datas/icons/${techno.logoPath} `}/>
                                     </a>
                                 </li>
                             );
