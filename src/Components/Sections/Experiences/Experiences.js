@@ -18,7 +18,7 @@ const Experiences = ({ experiencesDatas }) => {
 
                 {
                     lists.map((item, itemKey) => {
-                        const societyWebsiteUrl = item.society.name ? item.society.name : 'javascript:;';
+                        const societyWebsiteUrl = item.society.website ? item.society.website : 'javascript:;';
                         const endDate = item.date.end ? item.date.end : "Aujourd'hui";
 
                         return (

@@ -4,10 +4,10 @@
         "me" : {
             "lastname": "RAZAFIMANDIMBY",
             "firstname": "Niaina Michaël",
-            "about": "<div class=\"subheading mb-5\">Developpeur Web & Mobile <br>(Symfony, React, NodeJS, Ionic Cordova, ...) </div><p class=\"lead mb-5\">Développeur, Startupeur dans le domaine du digital et hâte de voir jusqu’où mes idées et lignes de codes peuvent changer le monde.<br><br></p>"
+            "about": "<div class=\"subheading mb-5\">Symfony Developer<br>(Symfony, VueJs, React) </div><p class=\"lead mb-5\">Développeur, Startupeur dans le domaine du digital et hâte de voir jusqu’où mes idées et lignes de codes peuvent changer le monde.<br><br></p>"
         },
         "address": {
-            "name": "Anjanahary",
+            "name": "Mahabo Andoharanofotsy",
             "city": "Antananarivo",
             "country": "Madagascar"
         },
@@ -42,6 +42,23 @@
         "title": "Experiences",
         "lists": [
             {
+                "title": "Développeur Symfony - Full remote",
+                "society": {
+                    "name": "Signalement.net",
+                    "address": {
+                        "name": "",
+                        "city": "",
+                        "country": "France"
+                    },
+                    "website": "https://www.signalement.net"
+                },
+                "date": {
+                    "start": "1 Juin 2020",
+                    "end": null
+                },
+                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "React", "MySQL", "Docker"]
+            },
+            {
                 "title": "Développeur Symfony - CDI",
                 "society": {
                     "name": "MyAgency Anjanahary",
@@ -54,9 +71,9 @@
                 },
                 "date": {
                     "start": "1 Mars 2019",
-                    "end": null
+                    "end": "29 Mai 2020"
                 },
-                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "React", "MongoDB", "MongoDB", "MySQL"]
+                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "VueJs", "React", "MongoDB", "MySQL", "Redis"]
             },
             {
                 "title": "Développeur Full Stack - CDD (2 mois)",
@@ -101,7 +118,7 @@
                         "city": "Antananarivo",
                         "country": "Madagascar"
                     },
-                    "website": "https://emediamadagascar.com"
+                    "website": "https://e-media.mg"
                 },
                 "date": {
                     "start": "Novembre 2017",
