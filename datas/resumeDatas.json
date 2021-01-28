@@ -4,10 +4,10 @@
         "me" : {
             "lastname": "RAZAFIMANDIMBY",
             "firstname": "Niaina Michaël",
-            "about": "<div class=\"subheading mb-5\">Symfony Developer<br>(Symfony, VueJs, React) </div><p class=\"lead mb-5\">Développeur, Startupeur dans le domaine du digital et hâte de voir jusqu’où mes idées et lignes de codes peuvent changer le monde.<br><br></p>"
+            "about": "<div class=\"subheading mb-5\">PHP / Symfony Developer</div><p class=\"lead mb-5\">Développeur, Startupeur dans le domaine du digital et hâte de voir jusqu’où mes idées et lignes de codes peuvent changer le monde.<br><br></p>"
         },
         "address": {
-            "name": "Mahabo Andoharanofotsy",
+            "name": "Lot IAV 313 P IAVOLOHA Androharanofotsy",
             "city": "Antananarivo",
             "country": "Madagascar"
         },
@@ -56,7 +56,7 @@
                     "start": "1 Juin 2020",
                     "end": null
                 },
-                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "React", "MySQL", "Docker"]
+                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "Docker", "Microservice", "React", "VueJS", "REST API", "GraphQL", "MySQL", "Nginx", "Capistrano", "GitLab CI/CD"]
             },
             {
                 "title": "Développeur Symfony - CDI",
