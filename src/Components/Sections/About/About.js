@@ -26,8 +26,7 @@ const About = ({ aboutDatas }) => {
                         {
                             socials.map((social, key) => {
                                 return (
-                                    <a href={ social.url } key={ key }>
-                                        {/* <FontAwesomeIcon icon={ social.icon } /> */}
+                                    <a href={ social.url } key={ key } target="_blank">
                                         <FontAwesomeIcon icon={['fab', social.icon]} />
                                     </a>
                                 );
@@ -35,7 +34,9 @@ const About = ({ aboutDatas }) => {
                         }
                     </div>
                     <div className="contacts">
-                        { contact.phone } . <a href="mailto:{ contact.mail }">{ contact.mail }</a> . { `${address.name} . ${address.city} ${address.country}` }
+                        { contact.phone } . 
+                        <a href="mailto:{ contact.mail }">{ contact.mail }</a> . 
+                        <a href="https://www.google.com/maps/place/RAZAFIMANDIMBY+Niaina+Micha%C3%ABl+(balzacLeGeek)/@-18.9950618,47.5283049,1042m/data=!3m1!1e3!4m5!3m4!1s0x21f07ba3c02e6077:0x7798057095e53355!8m2!3d-18.9955488!4d47.5301449" target="_blank">{ `${address.name} . ${address.city} ${address.country}` }</a>
                     </div>
                 </div>
             </section>
