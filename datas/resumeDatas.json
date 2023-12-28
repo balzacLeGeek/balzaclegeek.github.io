@@ -61,6 +61,24 @@
                 "technos": ["Symfony 3.4 / 5.3", "API Platform", "Messenger", "PHP 7.2 / 8.1", "Docker", "Microservice", "React", "REST API", "MySQL", "PostgreSQL", "Nginx", "Capistrano", "Jenkins", "GitLab CI/CD"]
             },
             {
+                "title": "Consultant | Lead développeur Backend Symfony",
+                "society": {
+                    "name": "Bocasay Madagascar",
+                    "address": {
+                        "name": "",
+                        "city": "Antananarivo",
+                        "country": "Madagascar"
+                    },
+                    "website": "https://www.bocasay.com/fr/madagascar-fr/"
+                },
+                "date": {
+                    "start": "Avril 2022 - Janvier 2023",
+                    "end": null
+                },
+                "summary": "Consultant, Lead développeur backend PHP / Symfony d'une équipe sur un projet de vente de biens immobiliers.",
+                "technos": ["Symfony 2.8 & 4.4", "Propel", "PHP 5.6 / 7.2", "Docker", "React", "REST API", "MySQL", "PostgreSQL", "GitLab CI/CD"]
+            },
+            {
                 "title": "Développeur Backend Symfony (CDI)",
                 "society": {
                     "name": "MyAgency Anjanahary",
