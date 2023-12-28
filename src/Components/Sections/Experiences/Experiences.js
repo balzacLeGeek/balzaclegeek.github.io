@@ -20,6 +20,9 @@ const Experiences = ({ experiencesDatas }) => {
                     lists.map((item, itemKey) => {
                         const societyWebsiteUrl = item.society.website ? item.society.website : 'javascript:;';
                         const endDate = item.date.end ? item.date.end : "Aujourd'hui";
+                        const jobDescription = {
+                            __html: item.description ?? ""
+                        }
 
                         return (
                             <div className="resume-item d-flex flex-column flex-md-row mb-5" key={ itemKey }>
@@ -28,11 +31,14 @@ const Experiences = ({ experiencesDatas }) => {
                                         <a href={ societyWebsiteUrl } target="_blank">{ item.society.name }</a>
                                     </h3>
                                     <div className="subheading mb-3">{ item.title }</div>
+                                    <div className="occupation-summary"><p>{ item.summary}</p></div>
+                                    <div dangerouslySetInnerHTML={ jobDescription }></div>
                                     <div>
                                         {
                                             item.technos.map((techno, technoKey) => {
+                                                const separator = technoKey === item.technos.length - 1 ? '' : ' - '; 
                                                 return(
-                                                    <span key={ technoKey }>{ `${ techno } - ` }</span>
+                                                    <span key={ technoKey }>{ `${ techno }${separator}` }</span>
                                                 )
                                             })
                                         }

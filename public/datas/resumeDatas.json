@@ -42,24 +42,26 @@
         "title": "Experiences",
         "lists": [
             {
-                "title": "Développeur Symfony - Full remote",
+                "title": "Tech Lead | Développeur Backend Symfony",
                 "society": {
-                    "name": "Signalement.net",
+                    "name": "Besignal (Ex Signalement.Net)",
                     "address": {
                         "name": "",
-                        "city": "",
+                        "city": "Paris",
                         "country": "France"
                     },
                     "website": "https://www.signalement.net"
                 },
                 "date": {
-                    "start": "1 Juin 2020",
+                    "start": "Juin 2020",
                     "end": null
                 },
-                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "Docker", "Microservice", "React", "VueJS", "REST API", "GraphQL", "MySQL", "Nginx", "Capistrano", "GitLab CI/CD"]
+                "summary": "En charge de la maintenance d'une application existant d'estion d'alertes éthiques et professionnelles , utilisée par une vaste clientèle internationale.",
+                "description": "<p>Conception et d&eacute;veloppement de la nouvelle version de l&#39;application avec plusieurs am&eacute;liorations :</p> <ul> <li>SPA avec React pour la partie frontend</li> <li>PHP8.1 / Symfony 5.3 , API Platform (Rest API )</li> <li><strong>Multitenance :</strong> Chaque client peut choisir o&ugrave; stocker ses donn&eacute;es (Base de donn&eacute;es d&eacute;di&eacute;e )</li> <li>Messagerie instantan&eacute;e utilisant le protocole XMPP (Utilisation d&#39;Ejabberd )</li> <li>T&acirc;che assynchone avec Symfony Messenger / Doctrine &amp; Redis</li> <li>Application Scalable avec Clever Cloud</li> <li>Renforcement de l&#39;aspect s&eacute;curit&eacute; , cloisonnement et confidentialit&eacute; de donn&eacute;es</li> </ul> <p>Dans l&#39;&eacute;quipe de plusieurs d&eacute;veloppeur je m&#39;ocuppe des t&acirc;ches suivants :</p> <ul> <li>Analyse et conception l&#39;&eacute;quipe technique (Architecte et les d&eacute;veloppeurs )</li> <li>D&eacute;coupage technique des Users Stories</li> <li>Estimation , dispatch des t&acirc;ches</li> <li>D&eacute;veloppement de l&#39;API</li> <li>Code Review , validation des modifications et livraison sur les diff&eacute;rents environnements</li> <li>Suivie et revue de la priorit&eacute; selon les &eacute;ventuels retours m&eacute;tier</li> <li>Animation de diff&eacute;rents points (Equipe technique et les autres : m&eacute;tiers etc ...)</li> </ul>",
+                "technos": ["Symfony 3.4 / 5.3", "API Platform", "Messenger", "PHP 7.2 / 8.1", "Docker", "Microservice", "React", "REST API", "MySQL", "PostgreSQL", "Nginx", "Capistrano", "Jenkins", "GitLab CI/CD"]
             },
             {
-                "title": "Développeur Symfony - CDI",
+                "title": "Développeur Backend Symfony (CDI)",
                 "society": {
                     "name": "MyAgency Anjanahary",
                     "address": {
@@ -73,7 +75,9 @@
                     "start": "1 Mars 2019",
                     "end": "29 Mai 2020"
                 },
-                "technos": ["Symfony 3.4 / 4", "PHP 7.x", "VueJs", "React", "MongoDB", "MySQL", "Redis"]
+                "summary": "Intégration d'une équipe de développement composée de quatre développeurs pour travailler sur un projet immobilier , impliquant la location et la vente de biens immobiliers pour un client européen .",
+                "description": "<p>Mon r&ocirc;le principal consistait &agrave; assurer la maintenance continue du projet , &agrave; am&eacute;liorer ses fonctionnalit&eacute;s existantes et &agrave; introduire de nouvelles fonctionnalit&eacute;s en r&eacute;ponse aux besoins changeants .</p><p>J&#39;ai &eacute;galement eu l&#39;opportunit&eacute; de m&#39;initier professionnellement &agrave; Vue .js 2 en contribuant &agrave; une partie sp&eacute;cifique de l&#39;application.</p>",
+                "technos": ["PHP / Symfony 3.4" , "MongoDB" , "MySQL" , "Socket" , "Redis" , "Vue2" , "Nginx"]
             },
             {
                 "title": "Développeur Full Stack - CDD (2 mois)",
@@ -90,27 +94,12 @@
                     "start": "Décembre 2018",
                     "end": "Février 2019"
                 },
-                "technos": ["Symfony 4", "PHP 7.2", "Angular 5", "NodeJs", "MongoDB", "MySQL"]
+                "summary": null,
+                "description": "<p>Charg&eacute; de finaliser une application web d&eacute;di&eacute;e &agrave; la campagne de sensibilisation des secteurs informels de la ville d&#39;Antananarivo . Cette application a &eacute;t&eacute; d&eacute;velopp&eacute;e en collaboration avec le Minist&egrave;re du Travail , de l&#39;Emploi et de la Fonction Publique .</p>",
+                "technos": ["Angular 4", "NodeJs" , "Symfony 4.4" , "MongoDb" , "MariaDb" , "Redis" , "API Rest", "Apache HTTP Server"]
             },
             {
-                "title": "Développeur Symfony - Remote",
-                "society": {
-                    "name": "Meiste Capital",
-                    "address": {
-                        "name": null,
-                        "city": null,
-                        "country": "France"
-                    },
-                    "website": "http://meistecapital.com"
-                },
-                "date": {
-                    "start": "Octobre 2018",
-                    "end": "Décembre 2018"
-                },
-                "technos": ["Symfony 4", "JQuery", "MySQL"]
-            },
-            {
-                "title": "Développeur Web / Webmaster",
+                "title": "Développeur Web",
                 "society": {
                     "name": "E-media Madagascar",
                     "address": {
@@ -124,7 +113,9 @@
                     "start": "Novembre 2017",
                     "end": "Mai 2018"
                 },
-                "technos": ["PHP 7", "Bundles Symfony", "JQuery", "MySQL"]
+                "summary": null,
+                "description": "<p>Conception et d&eacute;veloppement d&#39;une application web de gestion de pr&eacute;sence &eacute;tudiante , incluant l&#39;utilisation de badges avec des QR codes uniques .</p> <p>La solution permet la validation rapide de l&#39;identit&eacute; des &eacute;tudiants et l&#39;enregistrement automatique de leurs heures d&#39;entr&eacute;e et de sortie fonctionnant avec ou sans acc&egrave;s internet (Synchronisation automatique une fois conn&eacute;ct&eacute; &agrave; internet ).</p> <p>Des fonctionnalit&eacute;s compl&eacute;mentaires ont &eacute;t&eacute; int&eacute;gr&eacute;es , telles que le suivi des absences et des frais de scolarit&eacute; . Trois intefaces ont &eacute;t&eacute; propos&eacute;s : Administration , &eacute;tudiant et titulaire .</p>",
+                "technos": ["Angular 4", "NodeJs" , "Symfony 4.4" , "MongoDb" , "MariaDb" , "Redis" , "API Rest", "Apache HTTP Server"]
             }
         ]
     },
@@ -257,7 +248,7 @@
     },
     "interests": {
         "title": "Autres",
-        "content": "<p className=\"mb-0\">Quand je ne suis pas avec RAILLY (mon laptop) à bouffer de code et surfer sur internet, passer du temps avec les personnes qui me sont chères sont un de mes priorités car nous ne savons pas ce que la vie nous reserve après chaque seconde. </p><p> Sinon, il m'arrive aussi de jouer de la guitare et au football.</p>"
+        "content": "<p className=\"mb-0\">Passionn&eacute; des petites sportives: <strong><em>205GTI, 106S16, Saxo VTS, etc ...</em></strong>.</p>"
     },
     "awards": {
         "title": "Awards",

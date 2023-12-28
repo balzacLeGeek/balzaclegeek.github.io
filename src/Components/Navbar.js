@@ -36,7 +36,7 @@ const Navbar = () => {
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
                 <span className="d-block d-lg-none">balzacLeGeek</span>
                 <span className="d-none d-lg-block">
-                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="./imgs/RAZAFIMANDIMBY-Niaina-Michael-profil-5eff0df06.jpg" alt="RAZAFIMANDIMBY Niaina Michael, balzacLeGeek"/>
+                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="./imgs/RAZAFIMANDIMBY-Niaina-Michael-profil-f06f5edf0.jpeg" alt="RAZAFIMANDIMBY Niaina Michael, balzacLeGeek"/>
                 </span>
             </a>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
